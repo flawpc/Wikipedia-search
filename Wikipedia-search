@@ -1,0 +1,1 @@
+javascript:s=document.getSelection();for(i=0;i<frames.length;i++)%7Bif(s)break﻿ ;s=frames%5Bi%5D.document.getSelection();%7Dif(!s)void(s=prompt('Enter%20searc﻿ h%20terms%20for%20Wikipedia',''));wikiw=open('http://en.wikipedia.org/'+(s?'w/﻿ wiki.phtml?search='+escape(s):''));wikiw.focus();
